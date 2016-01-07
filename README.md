@@ -2,7 +2,7 @@ A simple promise handler to use when you find yourself turning the same `functio
 
 _Instead of:_​
 
-``` return new Promise((resolve, reject) => {
+    return new Promise((resolve, reject) => {
         theLib.update(accountId, data, function(err, customer) {
             if (err) {
                 return reject(err);
@@ -11,10 +11,9 @@ _Instead of:_​
             return resolve(customer);
         });
     });
-```
 
-​*Do:*​
-``` return swear(handler => {
+​_Do:_
+
+    return swear(handler => {
         stripe.accounts.update(accountId, data, handler);
     });
-```
