@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/peterhel/swear.git"
+    "url": "git+https://github.com/peterhel/promise-handler.git"
   },
   "keywords": [
     "promise",
@@ -17,7 +17,7 @@
   "author": "Peter Helenefors",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/peterhel/swear/issues"
+    "url": "https://github.com/peterhel/promise-handler/issues"
   },
-  "homepage": "https://github.com/peterhel/swear#readme"
+  "homepage": "https://github.com/peterhel/promise-handler#readme"
 }
