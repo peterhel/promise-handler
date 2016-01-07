@@ -15,5 +15,5 @@ _Instead of:_​
 ​_Do:_
 
     return swear(handler => {
-        stripe.accounts.update(accountId, data, handler);
+        theLib.accounts.update(accountId, data, handler);
     });
