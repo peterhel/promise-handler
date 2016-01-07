@@ -1,0 +1,23 @@
+{
+  "name": "swear",
+  "version": "1.0.0",
+  "description": "A simple promise wrapper to use when you find yourself turning the same `function (err, result) {}` to promises again and again and again.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterhel/swear.git"
+  },
+  "keywords": [
+    "promise",
+    "handler"
+  ],
+  "author": "Peter Helenefors",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterhel/swear/issues"
+  },
+  "homepage": "https://github.com/peterhel/swear#readme"
+}
